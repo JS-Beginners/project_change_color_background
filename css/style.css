@@ -1,3 +1,7 @@
+/* Defino la posición del botón */
+
 button {
-    margin-top: 50vh
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }

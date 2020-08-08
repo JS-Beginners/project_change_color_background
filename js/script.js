@@ -1,12 +1,17 @@
-//Choose a random color
-const button = document.querySelector('button')
-const body = document.querySelector('body')
-const colors = ['red', 'green', 'blue', 'yellow', 'pink', 'purple']
 
-body.style.backgroundColor = 'violet'
-button.addEventListener('click', changeBackground)
+//variables definition
+var button = document.getElementById('button')
+var body = document.getElementById('body')
+var colors = ['Azure', 'Aqua', 'Beige', 'Cornsilk', 'DarkSalmon']
 
-function changeBackground(){
-const colorIndex= parseInt(Math.random()*colors.length)
-body.style.backgroundColor = colors[colorIndex]
+//initial body color
+body.style.backgroundColor = 'Azure'
+
+//click action
+button.onclick = changeBackground;
+
+//change color function
+function changeBackground() {
+    var colorIndex = parseInt(Math.random() * colors.length)
+    body.style.backgroundColor = colors[colorIndex]
 }
