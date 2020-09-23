@@ -1,3 +1,18 @@
-button {
-    margin-top: 50vh
+body { 
+    min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: -webkit-linear-gradient(red, green, blue);
+}
+
+
+
+.button {
+    padding: 0.5em;
+    background:#8a4f4f;
+    color: #100f0f;
+    outline: none;
+    border-radius: 10px;
+
 }
