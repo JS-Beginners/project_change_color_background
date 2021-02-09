@@ -1,3 +1,4 @@
 button {
-    margin-top: 50vh
+    margin-top: 50vh;
+    transition: background-color .7s ease;
 }
