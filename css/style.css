@@ -1,3 +1,9 @@
 button {
-    margin-top: 50vh
+    margin-top: 50vh;
+     background: #141212; box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+}
+button:hover{
+   background: linear-gradient(red,blue);
+    transform: scale(1);
+    transition:0.5s;
 }
