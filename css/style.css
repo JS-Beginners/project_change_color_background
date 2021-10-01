@@ -1,3 +1,7 @@
 button {
-    margin-top: 50vh
+    margin-top: 43vh
+}
+button{
+    min-width: 200px;
+    height: 80px;
 }
