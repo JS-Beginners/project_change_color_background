@@ -1,3 +1,53 @@
-button {
-    margin-top: 50vh
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ee82ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container > * {
+    margin-bottom: 2rem;
+}
+
+.container:last-child {
+    margin-bottom: 0;
+}
+
+.colorCode > input {
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    border: 1px solid;
+    box-shadow: 1px 1px 1px;
+    font-size: 20px;
+    width: 150px;
+}
+
+.button > button {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 0px 5px 4px white;
+    color: #ee82ee;
+    outline: none;
+}
+
+.button > button:focus {
+    border: 2px solid white;
 }
