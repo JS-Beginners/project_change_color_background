@@ -1,7 +1,7 @@
 //Choose a random color
 const button = document.querySelector('button')
 const body = document.querySelector('body')
-const colors = ['red', 'green', 'blue', 'yellow', 'pink', 'purple']
+const colors = ['red', 'green', 'blue', 'yellow', 'black', 'purple']
 
 body.style.backgroundColor = 'violet'
 button.addEventListener('click', changeBackground)
